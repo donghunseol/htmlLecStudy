@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZUZU APP</title>
+
+    <style>
+        .main {
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .bg-main {
+            position: absolute;
+            width: 100%;
+            height: 900px;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .bg-left {
+            background-image: url("./images/vacation.jpg");
+            height: 900px;
+            background-size: 100% 100%;
+        }
+
+        .bg-right {
+            display: grid;
+            grid-template-rows: 7fr 1fr;
+        }
+
+        .bg-right-top {
+            background-color: #F8ECEB;
+        }
+
+        .bg-right-row {
+            background-color: #FFFFFF;
+        }
+
+        .top {
+            width: 100%;
+            position: absolute;
+            display: grid;
+            grid-template-columns: repeat(3, auto);
+            justify-content: space-between;
+            padding-top: 20px;
+        }
+
+        .top-logo {
+            padding-left: 20px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .top-menu {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            grid-column-gap: 25px;
+        }
+
+        .top-search {
+            padding-right: 20px;
+        }
+
+        .mid {
+            position: absolute;
+            font-size: 120px;
+            font-weight: bold;
+            padding-top: 10%;
+            padding-left: 55%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="bg-main">
+            <div class="bg-left"></div>
+            <div class="bg-right">
+                <div class="bg-right-top"></div>
+                <div class="bg-right-row"></div>
+            </div>
+        </div>
+        <div class="top">
+            <span class="top-logo">
+                zuzu.
+            </span>
+            <div class="top-menu">
+                <span>about</span>
+                <span>collections</span>
+                <span>videos</span>
+                <span>contact</span>
+            </div>
+            <div class="top-search">
+                <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                <span>ENG</span>
+            </div>
+        </div>
+        <div class="mid">
+            <div>New</div>
+            <div>collection</div>
+        </div>
+    </div>
+</body>
+
+</html>

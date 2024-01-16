@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Login Page</title>
+    <style>
+        body {
+            background-color: #FAFAFA;
+        }
+
+        .main {
+            padding-top: 4%;
+            height: 590px;
+            display: grid;
+            grid-template-columns: auto auto;
+            grid-column-gap: 0px;
+            justify-content: center;
+            grid-column-gap: 20px;
+        }
+
+        .full-box {
+            display: grid;
+            grid-template-columns: auto;
+        }
+
+        .login-box {
+            height: 370px;
+            width: 388px;
+            display: inline-block;
+            display: grid;
+            grid-template-columns: repeat(1, auto);
+        }
+
+        .login-inputbox {
+            background-color: #FFFFFF;
+            border: 2px solid #E8E8E8;
+            height: 370px;
+            width: 370px;
+            display: grid;
+            justify-content: center;
+        }
+
+        .login-logo {
+            display: grid;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .login-input {
+            display: grid;
+            grid-template-columns: auto;
+            justify-content: center;
+            display: inline;
+        }
+
+        .login-search {
+            display: block;
+            justify-content: center;
+            height: 38px;
+            width: 330px;
+            margin-top: 5px;
+        }
+
+        .login-button {
+            background-color: #B2DFFC;
+            border-radius: 5px;
+            border: 0px;
+            color: #FFFFFF;
+            display: block;
+            width: 340px;
+            height: 35px;
+        }
+
+        .login-fb {
+            color: #385185;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .login-orimg {
+            display: grid;
+            justify-content: center;
+        }
+
+        .login-inputbox span {
+            text-align: center;
+        }
+
+        .join-box {
+            background-color: #FFFFFF;
+            border: 2px solid #E8E8E8;
+            display: grid;
+            align-items: center;
+            height: 70px;
+            width: 370px;
+            text-align: center;
+        }
+
+        .app-down {
+            text-align: center;
+            padding-top: 5px;
+            padding-bottom: 5px;
+        }
+
+        .app-downmenu {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .app-downbtn {
+            height: 50px;
+            width: 185px;
+        }
+
+        .menual {
+            display: grid;
+            grid-template-columns: auto auto;
+            margin-top: 100px;
+            margin-left: 500px;
+        }
+
+        .menual-select {
+            display: grid;
+            font-weight: bold;
+            color: #436fc0;
+            grid-template-columns: repeat(11, auto);
+            grid-column-gap: 15px;
+            justify-content: start;
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="login-main"><img src="./images/login-main.png"></div>
+        <div class="full-box">
+            <div class="login-box">
+                <div class="login-inputbox">
+                    <div class="login-logo">
+                        <img src="./images/logo.png">
+                    </div>
+                    <div class="login-input">
+                        <input type="text" class="login-search" placeholder="전화번호, 사용자 이름 또는 이메일">
+                        <input type="text" class="login-search" placeholder="비밀번호">
+                    </div>
+                    <input type="button" class="login-button" value="로그인">
+                    <div class="login-orimg">
+                        <img src="./images/or.png">
+                    </div>
+                    <div class="login-fb">
+                        <img src="./images/facebook-logo.png">
+                        Facebook으로 로그인
+                    </div>
+                    <span>비밀번호를 잊으셨나요?</span>
+                </div>
+            </div>
+            <div class="join-box">
+                <span>계정이 없으신가요? <span class="login-fb"><b>가입하기</b></span></span>
+            </div>
+            <span class="app-down">앱을 다운로드하세요</span>
+            <div class="app-downmenu">
+                <img class="app-downbtn" src="./images/login-ios.png">
+                <img class="app-downbtn" src="./images/login-android.png">
+            </div>
+        </div>
+    </div>
+    <div class="menual">
+        <ul class="menual-select">
+            <li>소개</li>
+            <li>도움말</li>
+            <li>홍보 센터</li>
+            <li>API</li>
+            <li>채용 정보</li>
+            <li>개인정보처리방침</li>
+            <li>약관</li>
+            <li>위치</li>
+            <li>인기 계정</li>
+            <li>해시태그</li>
+            <li>언어</li>
+        </ul>
+        <span>ⓒ 2020 INSTAGRAM FROM FACEBOOK</span>
+    </div>
+</body>
+
+
+</html>

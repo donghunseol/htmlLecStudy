@@ -1,0 +1,124 @@
+body {
+    background-color: #FAFAFA;
+}
+
+.main {
+    padding-top: 4%;
+    height: 590px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 0px;
+    justify-content: center;
+    grid-column-gap: 20px;
+}
+
+.full-box {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.login-box {
+    height: 370px;
+    width: 388px;
+    display: inline-block;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+}
+
+.login-inputbox {
+    background-color: #FFFFFF;
+    border: 2px solid #E8E8E8;
+    height: 370px;
+    width: 370px;
+    display: grid;
+    justify-content: center;
+}
+
+.login-logo {
+    display: grid;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.login-input {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    display: inline;
+}
+
+.login-search {
+    display: block;
+    justify-content: center;
+    height: 38px;
+    width: 330px;
+    margin-top: 5px;
+}
+
+.login-button {
+    background-color: #B2DFFC;
+    border-radius: 5px;
+    border: 0px;
+    color: #FFFFFF;
+    display: block;
+    width: 340px;
+    height: 35px;
+}
+
+.login-fb {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+}
+
+.login-orimg {
+    display: grid;
+    justify-content: center;
+}
+
+.login-inputbox span {
+    text-align: center;
+}
+
+.join-box {
+    background-color: #FFFFFF;
+    border: 2px solid #E8E8E8;
+    display: grid;
+    align-items: center;
+    height: 70px;
+    width: 370px;
+    text-align: center;
+}
+
+.app-down {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.app-downmenu {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.app-downbtn {
+    height: 50px;
+    width: 185px;
+}
+
+.menual {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+
+.menual-select {
+    display: grid;
+    font-weight: bold;
+    color: #436fc0;
+    grid-template-columns: repeat(11, auto);
+    grid-column-gap: 15px;
+    justify-content: start;
+    list-style-type: none;
+}
