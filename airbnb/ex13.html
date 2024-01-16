@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav {
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+
+        .menu {
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            justify-content: end;
+        }
+
+        .menu li {
+            /*리스트의 앞의 표식을 지워준다*/
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="home">홈</div>
+        <ul class="menu">
+            <li>아우터</li>
+            <li>바지</li>
+            <li>악세서리</li>
+            <li>신발</li>
+        </ul>
+    </div>
+</body>
+
+</html>
