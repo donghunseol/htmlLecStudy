@@ -1,0 +1,66 @@
+        /*마진이나 패딩같은 경우는 따로 만들어주는 것이 좋다*/
+        .mt-10 {
+            margin-top: 10px;
+        }
+
+        .mb-10 {
+            margin-bottom: 10px;
+        }
+
+        .mb-5 {
+            margin-bottom: 5px;
+        }
+
+        .main {
+            background-color: rgb(232, 232, 232);
+            display: flex;
+            justify-content: center;
+        }
+
+        .main-body {
+            width: 700px;
+            text-align: center;
+        }
+
+        .section-title {
+            color: rgb(238, 147, 147);
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .section-subtitle {
+            font-size: 12px;
+        }
+
+        .section-img {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column-gap: 10px;
+        }
+
+        .img-item {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .item-name {
+            position: absolute;
+            color: white;
+        }
+
+        .img-item>img {
+            /*100%를 안주면 부모를 벗어난다. 그리고 grid를 쓰는게 좋다*/
+            width: 100%;
+            height: 175px;
+            object-fit: cover;
+        }
+
+        .btn-detail {
+            background-color: rgb(255, 130, 130);
+            border-radius: 6px;
+            color: white;
+            height: 30px;
+            width: 200px;
+        }
