@@ -1,0 +1,194 @@
+        .body {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+
+        .title {
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+        .card-box {
+            display: flex;
+            justify-content: center;
+            column-gap: 5px;
+        }
+
+        .card {
+            display: flex;
+            flex-wrap: nowrap;
+            border: 2px solid #F3F2F2;
+            height: 60px;
+            width: 25%;
+            align-items: center;
+            border-radius: 5px;
+            column-gap: 10px;
+        }
+
+        .card-title {
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .card-img1 {
+            background: url(/images/card1.jpg);
+            width: 25%;
+            height: 100%;
+            background-size: 100% 100%;
+        }
+
+        .card-img2 {
+            background: url(/images/card2.jpg);
+            width: 25%;
+            height: 100%;
+            background-size: 100% 100%;
+        }
+
+        .card-img3 {
+            background: url(/images/card3.jpg);
+            width: 25%;
+            height: 100%;
+            background-size: 100% 100%;
+        }
+
+        .card-img4 {
+            background: url(/images/card4.jpg);
+            width: 25%;
+            height: 100%;
+            background-size: 100% 100%;
+        }
+
+        .ad-img1 {
+            background-image: url(/images/ad1.jpg);
+            border-radius: 10px;
+            height: 300px;
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .img-box {
+            display: flex;
+            justify-content: center;
+            height: 250px;
+            column-gap: 10px;
+        }
+
+        .img1 {
+            background-image: url(/images/choo1.png);
+            width: 20%;
+            background-size: 100% 100%;
+        }
+
+        .img2 {
+            background-image: url(/images/choo2.png);
+            width: 20%;
+            background-size: 100% 100%;
+        }
+
+        .img3 {
+            background-image: url(/images/choo3.png);
+            width: 20%;
+            background-size: 100% 100%;
+        }
+
+        .img4 {
+            background-image: url(/images/choo4.png);
+            width: 20%;
+            background-size: 100% 100%;
+        }
+
+        .img5 {
+            background-image: url(/images/choo5.png);
+            width: 20%;
+            background-size: 100% 100%;
+        }
+
+        .subtitle {
+            font-size: 12px;
+        }
+
+        .ad-img2 {
+            background-image: url(/images/ad2.png);
+            height: 300px;
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .home-box {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-column-gap: 10px;
+        }
+
+        .home-img {
+            display: flex;
+            flex-wrap: nowrap;
+            object-fit: fill;
+            justify-content: center;
+            height: 150px;
+        }
+
+        .home-img1 {
+            background-image: url(/images/home1.png);
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .home-img2 {
+            background-image: url(/images/home2.png);
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .home-img3 {
+            background-image: url(/images/home3.png);
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .home-img4 {
+            background-image: url(/images/home4.png);
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .home-img5 {
+            background-image: url(/images/home5.png);
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .home-img6 {
+            background-image: url(/images/home6.png);
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .home-img7 {
+            background-image: url(/images/home7.png);
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .home-img8 {
+            background-image: url(/images/home8.png);
+            width: 100%;
+            background-size: 100% 100%;
+        }
+
+        .text1 {
+            color: #a0a0a0;
+            font-size: 9px;
+        }
+
+        .text2 {
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        .grade-box {
+            display: flex;
+            font-size: 12px;
+            column-gap: 6px;
+        }
